@@ -52,6 +52,9 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <outlet property="testLabel" destination="xui-EP-e2X" id="bwg-b0-EFk"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
