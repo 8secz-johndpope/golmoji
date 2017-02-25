@@ -14,6 +14,7 @@
 		4EB7C2CA1E619F160038888C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7C2C81E619F160038888C /* LaunchScreen.storyboard */; };
 		4EB7C2D51E619F160038888C /* helloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7C2D41E619F160038888C /* helloTests.swift */; };
 		4EB7C2E01E619F160038888C /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7C2DF1E619F160038888C /* helloUITests.swift */; };
+		4EB7C2F21E619F730038888C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4EB7C2DB1E619F160038888C /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB7C2DF1E619F160038888C /* helloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloUITests.swift; sourceTree = "<group>"; };
 		4EB7C2E11E619F160038888C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		4EB7C2B31E619F160038888C = {
 			isa = PBXGroup;
 			children = (
+				4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */,
 				4EB7C2BE1E619F160038888C /* hello */,
 				4EB7C2D31E619F160038888C /* helloTests */,
 				4EB7C2DE1E619F160038888C /* helloUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				4EB7C2C21E619F160038888C /* ViewController.swift in Sources */,
 				4EB7C2C01E619F160038888C /* AppDelegate.swift in Sources */,
+				4EB7C2F21E619F730038888C /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
