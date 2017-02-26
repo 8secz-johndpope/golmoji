@@ -10,16 +10,15 @@ import UIKit
 import Spring
 
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate,UIGestureRecognizerDelegate {
     
     
     let reuseIdentifier = "cell"
     var names = ["1", "2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
 
-    
     @IBOutlet var imageUp: UIImageView!
     
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.names.count
     }
@@ -45,6 +44,24 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         imageUp.image = cell.Image1.image
         
         print("You selected cell #\(indexPath.item)!")
+    }
+    override func viewDidLoad() {
+        let gesture = UIPanGestureRecognizer(target: self, action: #selector(ViewController.wasDragged(_:)))
+        
+        self.imageUp.addGestureRecognizer(gesture)
+        self.imageUp.isUserInteractionEnabled = true
+        gesture.delegate = self
+    }
+    
+
+    @IBAction func wasDragged(_ gestureRecognizer: UIPanGestureRecognizer) {
+        if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
+            
+            let translation = gestureRecognizer.translation(in: self.view)
+            // note: 'view' is optional and need to be unwrapped
+            gestureRecognizer.view!.center = CGPoint(x: gestureRecognizer.view!.center.x + translation.x, y: gestureRecognizer.view!.center.y + translation.y)
+            gestureRecognizer.setTranslation(CGPoint.zero, in: self.view)
+        }
     }
 }
 
