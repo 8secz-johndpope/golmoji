@@ -33,7 +33,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         //let data = try! Data(contentsOf: url!)
         //cell.image1.image = UIImage(data: data)
         
-        cell.image1.image = UIImage(named: self.names[indexPath.row]+".png")
+        cell.image1.image = UIImage(named: "Part/Eyes/"+self.names[indexPath.row]+".png")
         
         
         //cell.backgroundColor = UIColor.red
