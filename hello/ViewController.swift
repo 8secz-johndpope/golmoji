@@ -10,17 +10,9 @@ import UIKit
 
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        let url = URL(string: "https://lujq.me/wp-content/uploads/2017/01/cropped-newyear.jpg")
-//        let data = try! Data(contentsOf: url!)
-//        let newImage = UIImage(data: data)
-//        let imageView = UIImageView(image:newImage);
-//        imageView.frame = CGRect(x:10, y:30, width:300, height:150)
-//        self.view.addSubview(imageView)
-//    }
     let reuseIdentifier = "cell"
     var names = ["1", "2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
+    @IBOutlet var imageUp: UIImageView!
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.names.count
     }
@@ -41,9 +33,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath) as! MyCollectionViewCell
-        let image = cell.image1 as! SpringImageView
-        image.animation = "slideDown"
-        image.animate()
+        let imageDown = cell.image1 as! SpringImageView
+        imageDown.animation = "slideDown"
+        imageDown.animate()
+        
+        imageUp.image = cell.image1.image
         
         print("You selected cell #\(indexPath.item)!")
     }
