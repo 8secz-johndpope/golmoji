@@ -40,6 +40,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath) as! MyCollectionViewCell
+        let image = cell.image1 as! SpringImageView
+        image.animation = "slideDown"
+        image.animate()
+        
         print("You selected cell #\(indexPath.item)!")
     }
 }
+
+
+
+
+
