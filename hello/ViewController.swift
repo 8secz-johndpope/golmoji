@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import Spring
 
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    
     let reuseIdentifier = "cell"
     var names = ["1", "2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
+
+    
     @IBOutlet var imageUp: UIImageView!
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.names.count
     }
@@ -21,11 +28,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! MyCollectionViewCell
         
-        //let url = URL(string: "file:///Users/lujianqiang/Development/iOS/golmoji/1.png")
-        //let data = try! Data(contentsOf: url!)
-        //cell.image1.image = UIImage(data: data)
         
-        cell.image1.image = UIImage(named: "Part/Beard/"+self.names[indexPath.row]+".png")
+        cell.Image1.image = UIImage(named: "Part/Beard/"+self.names[indexPath.row]+".png")
+        
         cell.backgroundColor = UIColor.red
         
         return cell
@@ -33,11 +38,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath) as! MyCollectionViewCell
-        let imageDown = cell.image1 as! SpringImageView
-        imageDown.animation = "slideDown"
-        imageDown.animate()
+
+        cell.Image1.animation = "slideDown"
+        cell.Image1.animate()
         
-        imageUp.image = cell.image1.image
+        imageUp.image = cell.Image1.image
         
         print("You selected cell #\(indexPath.item)!")
     }

@@ -7,7 +7,12 @@
 //
 
 import UIKit
+import Spring
 
 class MyCollectionViewCell: UICollectionViewCell {
-    @IBOutlet var image1: UIImageView!
+
+    
+    @IBOutlet var Image1: SpringImageView!
+
+
 }

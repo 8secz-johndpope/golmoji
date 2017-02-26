@@ -16,35 +16,6 @@
 		4EB7C2E01E619F160038888C /* helloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7C2DF1E619F160038888C /* helloUITests.swift */; };
 		4EB7C2F21E619F730038888C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */; };
 		4EED32CC1E629C8200E76778 /* Part in Resources */ = {isa = PBXBuildFile; fileRef = 4EED32CB1E629C8200E76778 /* Part */; };
-		4EED332A1E629EF700E76778 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED330C1E629EF700E76778 /* AsyncButton.swift */; };
-		4EED332B1E629EF700E76778 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED330D1E629EF700E76778 /* AsyncImageView.swift */; };
-		4EED332C1E629EF700E76778 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED330E1E629EF700E76778 /* AutoTextView.swift */; };
-		4EED332D1E629EF700E76778 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED330F1E629EF700E76778 /* BlurView.swift */; };
-		4EED332E1E629EF700E76778 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33101E629EF700E76778 /* DesignableButton.swift */; };
-		4EED332F1E629EF700E76778 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33111E629EF700E76778 /* DesignableImageView.swift */; };
-		4EED33301E629EF700E76778 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33121E629EF700E76778 /* DesignableLabel.swift */; };
-		4EED33311E629EF700E76778 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33131E629EF700E76778 /* DesignableTabBarController.swift */; };
-		4EED33321E629EF700E76778 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33141E629EF700E76778 /* DesignableTextField.swift */; };
-		4EED33331E629EF700E76778 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33151E629EF700E76778 /* DesignableTextView.swift */; };
-		4EED33341E629EF700E76778 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33161E629EF700E76778 /* DesignableView.swift */; };
-		4EED33351E629EF700E76778 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33171E629EF700E76778 /* ImageLoader.swift */; };
-		4EED33361E629EF700E76778 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EED33181E629EF700E76778 /* Info.plist */; };
-		4EED33371E629EF700E76778 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33191E629EF700E76778 /* KeyboardLayoutConstraint.swift */; };
-		4EED33381E629EF700E76778 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED331A1E629EF700E76778 /* LoadingView.swift */; };
-		4EED33391E629EF700E76778 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EED331B1E629EF700E76778 /* LoadingView.xib */; };
-		4EED333A1E629EF700E76778 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED331C1E629EF700E76778 /* Misc.swift */; };
-		4EED333B1E629EF700E76778 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED331D1E629EF700E76778 /* SoundPlayer.swift */; };
-		4EED333C1E629EF700E76778 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED331F1E629EF700E76778 /* Spring.swift */; };
-		4EED333D1E629EF700E76778 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33201E629EF700E76778 /* SpringAnimation.swift */; };
-		4EED333E1E629EF700E76778 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33211E629EF700E76778 /* SpringButton.swift */; };
-		4EED333F1E629EF700E76778 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33221E629EF700E76778 /* SpringImageView.swift */; };
-		4EED33401E629EF700E76778 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33231E629EF700E76778 /* SpringLabel.swift */; };
-		4EED33411E629EF700E76778 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33241E629EF700E76778 /* SpringTextField.swift */; };
-		4EED33421E629EF700E76778 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33251E629EF700E76778 /* SpringTextView.swift */; };
-		4EED33431E629EF700E76778 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33261E629EF700E76778 /* SpringView.swift */; };
-		4EED33441E629EF700E76778 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33271E629EF700E76778 /* TransitionManager.swift */; };
-		4EED33451E629EF700E76778 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33281E629EF700E76778 /* TransitionZoom.swift */; };
-		4EED33461E629EF700E76778 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED33291E629EF700E76778 /* UnwindSegue.swift */; };
 		F76529478E22678335C1806E /* Pods_hello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4B2F5B4C5D7FD1ECD22497 /* Pods_hello.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33A8ED0C1E62DFFB002B1FF4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		4EB7C2BC1E619F160038888C /* hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EB7C2BF1E619F160038888C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EB7C2C11E619F160038888C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EB7C2BF1E619F160038888C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = hello/AppDelegate.swift; sourceTree = "<group>"; };
+		4EB7C2C11E619F160038888C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = hello/ViewController.swift; sourceTree = "<group>"; };
 		4EB7C2C41E619F160038888C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB7C2C61E619F160038888C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB7C2C91E619F160038888C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,36 +53,6 @@
 		4EB7C2E11E619F160038888C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		4EED32CB1E629C8200E76778 /* Part */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Part; sourceTree = "<group>"; };
-		4EED330C1E629EF700E76778 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
-		4EED330D1E629EF700E76778 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
-		4EED330E1E629EF700E76778 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
-		4EED330F1E629EF700E76778 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		4EED33101E629EF700E76778 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
-		4EED33111E629EF700E76778 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
-		4EED33121E629EF700E76778 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
-		4EED33131E629EF700E76778 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
-		4EED33141E629EF700E76778 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
-		4EED33151E629EF700E76778 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
-		4EED33161E629EF700E76778 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		4EED33171E629EF700E76778 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		4EED33181E629EF700E76778 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EED33191E629EF700E76778 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
-		4EED331A1E629EF700E76778 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		4EED331B1E629EF700E76778 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
-		4EED331C1E629EF700E76778 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
-		4EED331D1E629EF700E76778 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
-		4EED331E1E629EF700E76778 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
-		4EED331F1E629EF700E76778 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
-		4EED33201E629EF700E76778 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
-		4EED33211E629EF700E76778 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
-		4EED33221E629EF700E76778 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
-		4EED33231E629EF700E76778 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
-		4EED33241E629EF700E76778 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
-		4EED33251E629EF700E76778 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
-		4EED33261E629EF700E76778 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
-		4EED33271E629EF700E76778 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
-		4EED33281E629EF700E76778 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
-		4EED33291E629EF700E76778 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		7C4B2F5B4C5D7FD1ECD22497 /* Pods_hello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC33090A425746ABF298E19 /* Pods-hello.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello/Pods-hello.debug.xcconfig"; sourceTree = "<group>"; };
 		921C640CA0ADF9D1938722C9 /* Pods-hello.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello/Pods-hello.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,13 +87,16 @@
 		4EB7C2B31E619F160038888C = {
 			isa = PBXGroup;
 			children = (
+				33A8ED0C1E62DFFB002B1FF4 /* Podfile */,
 				4EB7C2F11E619F730038888C /* MyCollectionViewCell.swift */,
-				4EED330B1E629EF700E76778 /* Spring */,
+				4EB7C2BF1E619F160038888C /* AppDelegate.swift */,
+				4EB7C2C11E619F160038888C /* ViewController.swift */,
+				4EB7C2C31E619F160038888C /* Main.storyboard */,
+				4EED32CB1E629C8200E76778 /* Part */,
 				4EB7C2BE1E619F160038888C /* hello */,
 				4EB7C2D31E619F160038888C /* helloTests */,
 				4EB7C2DE1E619F160038888C /* helloUITests */,
 				4EB7C2BD1E619F160038888C /* Products */,
-				4EED32CB1E629C8200E76778 /* Part */,
 				A9BD10C4CAFDA4C3768BEAA4 /* Pods */,
 				DA9743265377D13A8B375175 /* Frameworks */,
 			);
@@ -170,9 +115,6 @@
 		4EB7C2BE1E619F160038888C /* hello */ = {
 			isa = PBXGroup;
 			children = (
-				4EB7C2BF1E619F160038888C /* AppDelegate.swift */,
-				4EB7C2C11E619F160038888C /* ViewController.swift */,
-				4EB7C2C31E619F160038888C /* Main.storyboard */,
 				4EB7C2C61E619F160038888C /* Assets.xcassets */,
 				4EB7C2C81E619F160038888C /* LaunchScreen.storyboard */,
 				4EB7C2CB1E619F160038888C /* Info.plist */,
@@ -196,43 +138,6 @@
 				4EB7C2E11E619F160038888C /* Info.plist */,
 			);
 			path = helloUITests;
-			sourceTree = "<group>";
-		};
-		4EED330B1E629EF700E76778 /* Spring */ = {
-			isa = PBXGroup;
-			children = (
-				4EED330C1E629EF700E76778 /* AsyncButton.swift */,
-				4EED330D1E629EF700E76778 /* AsyncImageView.swift */,
-				4EED330E1E629EF700E76778 /* AutoTextView.swift */,
-				4EED330F1E629EF700E76778 /* BlurView.swift */,
-				4EED33101E629EF700E76778 /* DesignableButton.swift */,
-				4EED33111E629EF700E76778 /* DesignableImageView.swift */,
-				4EED33121E629EF700E76778 /* DesignableLabel.swift */,
-				4EED33131E629EF700E76778 /* DesignableTabBarController.swift */,
-				4EED33141E629EF700E76778 /* DesignableTextField.swift */,
-				4EED33151E629EF700E76778 /* DesignableTextView.swift */,
-				4EED33161E629EF700E76778 /* DesignableView.swift */,
-				4EED33171E629EF700E76778 /* ImageLoader.swift */,
-				4EED33181E629EF700E76778 /* Info.plist */,
-				4EED33191E629EF700E76778 /* KeyboardLayoutConstraint.swift */,
-				4EED331A1E629EF700E76778 /* LoadingView.swift */,
-				4EED331B1E629EF700E76778 /* LoadingView.xib */,
-				4EED331C1E629EF700E76778 /* Misc.swift */,
-				4EED331D1E629EF700E76778 /* SoundPlayer.swift */,
-				4EED331E1E629EF700E76778 /* Spring.h */,
-				4EED331F1E629EF700E76778 /* Spring.swift */,
-				4EED33201E629EF700E76778 /* SpringAnimation.swift */,
-				4EED33211E629EF700E76778 /* SpringButton.swift */,
-				4EED33221E629EF700E76778 /* SpringImageView.swift */,
-				4EED33231E629EF700E76778 /* SpringLabel.swift */,
-				4EED33241E629EF700E76778 /* SpringTextField.swift */,
-				4EED33251E629EF700E76778 /* SpringTextView.swift */,
-				4EED33261E629EF700E76778 /* SpringView.swift */,
-				4EED33271E629EF700E76778 /* TransitionManager.swift */,
-				4EED33281E629EF700E76778 /* TransitionZoom.swift */,
-				4EED33291E629EF700E76778 /* UnwindSegue.swift */,
-			);
-			path = Spring;
 			sourceTree = "<group>";
 		};
 		A9BD10C4CAFDA4C3768BEAA4 /* Pods */ = {
@@ -323,6 +228,7 @@
 				TargetAttributes = {
 					4EB7C2BB1E619F160038888C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MNLVE78JCS;
 						ProvisioningStyle = Automatic;
 					};
 					4EB7C2CF1E619F160038888C = {
@@ -365,8 +271,6 @@
 				4EB7C2CA1E619F160038888C /* LaunchScreen.storyboard in Resources */,
 				4EB7C2C71E619F160038888C /* Assets.xcassets in Resources */,
 				4EB7C2C51E619F160038888C /* Main.storyboard in Resources */,
-				4EED33391E629EF700E76778 /* LoadingView.xib in Resources */,
-				4EED33361E629EF700E76778 /* Info.plist in Resources */,
 				4EED32CC1E629C8200E76778 /* Part in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,35 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EED33301E629EF700E76778 /* DesignableLabel.swift in Sources */,
-				4EED333F1E629EF700E76778 /* SpringImageView.swift in Sources */,
-				4EED332C1E629EF700E76778 /* AutoTextView.swift in Sources */,
-				4EED33351E629EF700E76778 /* ImageLoader.swift in Sources */,
-				4EED333A1E629EF700E76778 /* Misc.swift in Sources */,
-				4EED332D1E629EF700E76778 /* BlurView.swift in Sources */,
-				4EED33461E629EF700E76778 /* UnwindSegue.swift in Sources */,
-				4EED33381E629EF700E76778 /* LoadingView.swift in Sources */,
-				4EED33411E629EF700E76778 /* SpringTextField.swift in Sources */,
-				4EED333C1E629EF700E76778 /* Spring.swift in Sources */,
 				4EB7C2C21E619F160038888C /* ViewController.swift in Sources */,
-				4EED333B1E629EF700E76778 /* SoundPlayer.swift in Sources */,
-				4EED33341E629EF700E76778 /* DesignableView.swift in Sources */,
-				4EED33311E629EF700E76778 /* DesignableTabBarController.swift in Sources */,
-				4EED332E1E629EF700E76778 /* DesignableButton.swift in Sources */,
 				4EB7C2C01E619F160038888C /* AppDelegate.swift in Sources */,
-				4EED33451E629EF700E76778 /* TransitionZoom.swift in Sources */,
-				4EED33321E629EF700E76778 /* DesignableTextField.swift in Sources */,
-				4EED33441E629EF700E76778 /* TransitionManager.swift in Sources */,
-				4EED33401E629EF700E76778 /* SpringLabel.swift in Sources */,
-				4EED332A1E629EF700E76778 /* AsyncButton.swift in Sources */,
-				4EED332B1E629EF700E76778 /* AsyncImageView.swift in Sources */,
-				4EED33331E629EF700E76778 /* DesignableTextView.swift in Sources */,
-				4EED33431E629EF700E76778 /* SpringView.swift in Sources */,
-				4EED33421E629EF700E76778 /* SpringTextView.swift in Sources */,
-				4EED33371E629EF700E76778 /* KeyboardLayoutConstraint.swift in Sources */,
-				4EED333E1E629EF700E76778 /* SpringButton.swift in Sources */,
-				4EED333D1E629EF700E76778 /* SpringAnimation.swift in Sources */,
-				4EED332F1E629EF700E76778 /* DesignableImageView.swift in Sources */,
 				4EB7C2F21E619F730038888C /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +388,7 @@
 				4EB7C2C41E619F160038888C /* Base */,
 			);
 			name = Main.storyboard;
+			path = hello;
 			sourceTree = "<group>";
 		};
 		4EB7C2C81E619F160038888C /* LaunchScreen.storyboard */ = {
@@ -622,6 +500,7 @@
 			baseConfigurationReference = 7DC33090A425746ABF298E19 /* Pods-hello.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNLVE78JCS;
 				INFOPLIST_FILE = hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = golmic.hello;
@@ -635,6 +514,7 @@
 			baseConfigurationReference = 921C640CA0ADF9D1938722C9 /* Pods-hello.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNLVE78JCS;
 				INFOPLIST_FILE = hello/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = golmic.hello;

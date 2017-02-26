@@ -39,19 +39,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="66" height="46"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-CP-kIQ" customClass="SpringImageView" customModule="hello" customModuleProvider="target">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nbu-LN-QEw" customClass="SpringImageView" customModule="Spring">
                                                     <rect key="frame" x="0.0" y="0.0" width="66" height="46"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideDown"/>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="NO"/>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <connections>
-                                            <outlet property="image1" destination="s5o-CP-kIQ" id="ZPE-Eh-Fus"/>
+                                            <outlet property="Image1" destination="Nbu-LN-QEw" id="sLc-ef-vmI"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -68,7 +63,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="imageUp" destination="AbL-ee-4Rm" id="96X-eL-RU1"/>
+                        <outlet property="imageUp" destination="AbL-ee-4Rm" id="N7s-Jt-tsV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
