@@ -13,7 +13,5 @@ class MyCollectionViewCell: UICollectionViewCell {
 
     
     @IBOutlet var Image1: SpringImageView!
-    @IBOutlet var Image2: SpringImageView!
-
 
 }

@@ -29,7 +29,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         
         cell.Image1.image = UIImage(named: "Part/Beard/"+self.names[indexPath.row]+".png")
-        cell.Image2.image = UIImage(named: "Part/Eyes/"+self.names[indexPath.row]+".png")
         
         cell.backgroundColor = UIColor.red
         
@@ -53,8 +52,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.imageUp.isUserInteractionEnabled = true
         gesture.delegate = self
     }
-    
-
     @IBAction func wasDragged(_ gestureRecognizer: UIPanGestureRecognizer) {
         if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
             
@@ -64,6 +61,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             gestureRecognizer.setTranslation(CGPoint.zero, in: self.view)
         }
     }
+    
+    @IBAction func press(_ sender: Any) {
+    }
+    
+    
 }
 
 
