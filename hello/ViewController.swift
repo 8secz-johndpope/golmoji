@@ -29,6 +29,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         
         cell.Image1.image = UIImage(named: "Part/Beard/"+self.names[indexPath.row]+".png")
+        cell.Image2.image = UIImage(named: "Part/Eyes/"+self.names[indexPath.row]+".png")
         
         cell.backgroundColor = UIColor.red
         
